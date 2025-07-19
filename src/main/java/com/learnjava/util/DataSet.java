@@ -61,8 +61,6 @@ public class DataSet {
                 .boxed().collect(Collectors.toSet());
     }
 
-
-
     public static double generateRandomPrice() {
         int min = 50;
         int max = 100;

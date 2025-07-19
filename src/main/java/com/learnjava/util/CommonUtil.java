@@ -18,11 +18,6 @@ public class CommonUtil {
 
     }
 
-    public static String transForm(String s) {
-        CommonUtil.delay(500);
-        return s.toUpperCase();
-    }
-
     public static void startTimer(){
         stopWatch.start();
     }
@@ -34,10 +29,6 @@ public class CommonUtil {
     public static void timeTaken(){
         stopWatch.stop();
         log("Total Time Taken : " +stopWatch.getTime());
-    }
-
-    public static void stopWatchReset(){
-        stopWatch.reset();
     }
 
     public static  int noOfCores(){

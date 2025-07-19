@@ -13,7 +13,7 @@ import static com.learnjava.util.LoggerUtil.log;
 
 public class ProductServiceUsingExecutor {
 
-    private static ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
+    private static final ExecutorService executorService = Executors.newFixedThreadPool(Runtime.getRuntime().availableProcessors());
     private final ProductInfoService productInfoService;
     private final ReviewService reviewService;
 
